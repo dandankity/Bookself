@@ -1,0 +1,22 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'jetty'
+apply plugin: 'war'
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    compile   'org.springframework:spring-webmvc:4.0.6.RELEASE'
+    testCompile 'junit:junit:4.10'
+
+}
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+

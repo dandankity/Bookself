@@ -10,10 +10,9 @@
     <description>Bookself</description>
 
 
-    <context:component-scan base-package="com.thoughtworks.controller"/>
+    <context:component-scan base-package="com.thoughtworks.controller"/> <!-- 搜寻controller -->
 
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">  <!-- viewResolver -->
         <property name="prefix">
             <value>/WEB-INF/jsp/</value>
         </property>

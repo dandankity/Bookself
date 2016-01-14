@@ -6,7 +6,7 @@
     <body>
 
         <div style="background-color:#EEEEEE;width:'100%';font-size:14px;">
-            <div style="float:left;width:24%; margin:10px 0px" >Hello Spring MVC</div>
+            <div style="float:left;width:24%; margin:10px 0px" >Hello ${name}</div>
         </div>
     </body>
 </html>
